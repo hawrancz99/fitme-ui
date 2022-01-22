@@ -1,0 +1,31 @@
+.result-card {
+  background-color: #7f878c0a;
+}
+.result-card .MuiSvgIcon-root {
+  color: rgba(136, 96, 208, 1);
+}
+.result-card .search-result-img{
+  height: 100%;
+}
+
+.chip-container {
+  display: flex !important;
+  flex-wrap: wrap;
+  padding-left: 0px !important;
+}
+
+.chip-container .chip {
+  padding-top: 5px;
+  padding-left: 5px;
+}
+.chip-container .chip div {
+  color: white !important;
+}
+
+.chip-container .chip div .MuiChip-root {
+  background-color: rgba(136, 96, 208, 1) !important;
+}
+
+.result-card .secondaryBtn {
+  margin-top: 10px !important;
+}

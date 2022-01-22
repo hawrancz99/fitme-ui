@@ -1,0 +1,20 @@
+.registration-paper {
+  padding: 4em;
+  width: 70%;
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.registration-box {
+  margin-bottom: 140px;
+}
+
+@media (max-width: 680px) {
+  .registration-paper {
+    padding: 1.8em;
+  }
+  .registration-paper .MuiStepper-root {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

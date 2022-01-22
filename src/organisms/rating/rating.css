@@ -1,0 +1,10 @@
+.rating-header {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+@media (max-width: 965px) {
+  .rating-header {
+    flex-direction: column;
+  }
+}

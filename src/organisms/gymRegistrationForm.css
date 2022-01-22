@@ -1,0 +1,6 @@
+@media (max-width: 680px) {
+  .full-width-form {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+}

@@ -1,0 +1,97 @@
+.sport-type-chip div div {
+  background: rgba(136, 96, 208, 1);
+  color: #fff;
+  border-radius: 15px !important;
+}
+.sport-type-chip .MuiChip-deleteIcon {
+  color: #fff !important;
+}
+.upload-photo-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+.upload-photo-btns {
+  display: flex !important;
+  flex-direction: column;
+}
+.uploaded-photo {
+  max-width: 850px;
+}
+.calendars {
+  margin-bottom: 20px;
+}
+.event-btns,
+.calendars {
+  margin-top: 20px;
+  display: flex !important;
+  justify-content: space-between;
+}
+.gallery-img {
+  max-height: 200px;
+}
+.modal-image {
+  max-height: 900px;
+}
+@media screen and (max-width: 1140px) {
+  .uploaded-photo {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .photos-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .uploaded-photo {
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 757px) {
+  .calendars {
+    display: block !important;
+    text-align: center;
+  }
+  .calendars div {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .calendars .primaryBtn {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .photos-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .uploaded-photo {
+    max-width: 250px;
+  }
+}
+@media screen and (max-width: 490px) {
+  .upload-photo-div {
+    display: block;
+    text-align: center;
+  }
+  .upload-photo-btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .calendars div {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .event-btns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .event-btns button {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,67 @@
+.search-toggle-sorting {
+  display: flex;
+  justify-content: space-between;
+}
+.search-toggle-sorting .Mui-selected {
+  color: rgba(136, 96, 208, 1) !important;
+  background-color: rgba(136, 96, 208, 0.1) !important;
+}
+.search-toggle-sorting .MuiToggleButtonGroup-root {
+  border: 2px solid rgba(136, 96, 208, 1) !important;
+}
+.search-toggle-sorting button svg {
+  padding-left: 5px;
+}
+.search-input {
+  text-align: center;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.search-input .landing-search-textField {
+  width: 85% !important;
+}
+.search-input-paper {
+  padding: 15px;
+  width: 90% !important;
+  margin: 0 auto;
+  max-width: 700px;
+}
+.filtering {
+  padding-right: 16px;
+  padding-left: 30px !important;
+  padding-bottom: 16px;
+}
+.results {
+  padding-right: 16px;
+}
+.pagination-bar {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 960px) {
+  .filtering,
+  .results {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+  .results {
+    padding-left: 30px !important;
+  }
+}
+@media (max-width: 650px) {
+  .search-toggle-sorting {
+    display: block !important;
+    text-align: center !important;
+  }
+  .search-toggle-sorting .MuiBox-root {
+    margin-top: 30px;
+    text-align: center !important;
+  }
+}
+
+@media (max-width: 436px) {
+  .search-toggle-sorting .MuiToggleButtonGroup-root {
+    flex-direction: column !important;
+  }
+}

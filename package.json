@@ -1,0 +1,71 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "main": "node_modules/react-scripts/scripts/start.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write \"src/**/*.js\" README.md",
+    "lint": "eslint \"src/**/*\""
+  },
+  "dependencies": {
+    "@apollo/client": "^3.4.12",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.0.4",
+    "@mui/lab": "^5.0.0-alpha.55",
+    "@mui/material": "^5.0.4",
+    "@mui/styles": "^5.0.1",
+    "@mui/x-data-grid": "^5.0.1",
+    "animejs": "^3.2.1",
+    "apollo-upload-client": "^16.0.0",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.26.0",
+    "dompurify": "^2.3.3",
+    "graphql": "^15.5.3",
+    "jsdom": "^18.0.1",
+    "load-script": "^2.0.0",
+    "lodash": "latest",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-card-flip": "^1.1.5",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.4.2",
+    "react-lottie": "^1.2.3",
+    "react-redux": "^7.2.5",
+    "react-router-dom": "5.3.0",
+    "react-scripts": "4.0.3",
+    "react-use-scrollspy": "^3.0.1",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.4.1",
+    "styled-components": "^5.3.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "lodash.findindex": "^4.6.0",
+    "prettier": "^2.4.1"
+  }
+}

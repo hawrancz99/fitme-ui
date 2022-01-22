@@ -1,0 +1,27 @@
+.main-filter-accordion {
+  display: none !important;
+}
+.subAccordion {
+  margin-bottom: 10px;
+}
+.box-subAccordions {
+  text-align: center;
+}
+.box-subAccordions .primaryBtn {
+  margin-top: 20px;
+}
+@media (max-width: 960px) {
+  .main-filter-accordion {
+    display: flex !important;
+  }
+  .subAccordion {
+    width: 200px;
+    margin: 0 auto !important;
+  }
+  .filterHeader {
+    display: none;
+  }
+  .filter-icon {
+    padding-top: 3px;
+  }
+}

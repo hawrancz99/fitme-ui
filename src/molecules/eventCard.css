@@ -1,0 +1,48 @@
+.event-info-grid {
+  max-width: 900px !important;
+}
+
+.capacity-grid {
+  text-align: end;
+}
+.capacity-grid p {
+  font-weight: 600;
+}
+
+.address a {
+  color: rgba(136, 96, 208, 1);
+  text-decoration: none;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  font-size: 13.33px !important;
+}
+
+.detail-btn-grid {
+  text-align: end;
+}
+
+@media (max-width: 1008px) {
+  .login-btn-grid,
+  .detail-btn-grid {
+    text-align: center;
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 899px) {
+  .event-name-grid,
+  .capacity-grid {
+    flex-basis: 50% !important;
+    max-width: 50% !important;
+  }
+  .time-grid,
+  .trainers-grid,
+  .address {
+    text-align: center;
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+}

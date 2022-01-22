@@ -1,0 +1,23 @@
+@media (max-width: 1090px) {
+  .eventHeader h3 {
+    line-height: unset !important;
+    text-align: center !important;
+  }
+  .eventAnimation,
+  .eventCapacity,
+  .eventPrice,
+  .eventType,
+  .eventStart,
+  .eventEnd,
+  .eventHeader {
+    flex-basis: 100% !important;
+    max-width: 100% !important;
+  }
+  .eventAnimation div div {
+    width: 250px !important;
+  }
+  .eventStart .MuiFormControl-root,
+  .eventEnd .MuiFormControl-root {
+    width: 234px !important;
+  }
+}

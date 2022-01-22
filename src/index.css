@@ -1,0 +1,160 @@
+* {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button-max-width {
+  width: 100%;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.list-item-about-gym {
+  display: flex;
+  border: solid 2px transparent;
+}
+
+.list-item-about-gym b {
+  width: 40%;
+  padding: 5px;
+}
+
+.list-item-about-gym span {
+  width: 60%;
+  padding: 5px;
+}
+
+.admin-page-chip {
+  background: rgba(136, 96, 208, 1) !important;
+  color: white !important;
+  padding: 18px !important;
+  font-size: 1.5rem !important;
+}
+/*REGION AdminPageAbout*/
+.css-o4b71y-MuiAccordionSummary-content {
+  justify-content: center;
+  font-size: small;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-size: 0.875rem !important;
+}
+
+/*ENDREGION AdminPageAbout*/
+
+.primaryBtn {
+  background: linear-gradient(
+    90deg,
+    rgba(136, 96, 208, 1) 0%,
+    rgba(90, 185, 234, 1) 100%
+  );
+  color: #fff !important;
+  border-radius: 5px !important;
+}
+
+.secondaryBtn {
+  border: 1px solid #5680e9 !important;
+  color: #5680e9 !important;
+  border-radius: 5px !important;
+}
+
+.deleteBtn {
+  border: 1px solid red !important;
+  color: red !important;
+  border-radius: 5px !important;
+  padding: 6px !important;
+}
+.deleteBtn:hover {
+  background-color: rgba(255, 0, 0, 0.164) !important;
+}
+.password-change-confirmation div {
+  width: auto !important;
+}
+
+/* MUI overrides*/
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #5680e9 !important;
+}
+
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: #5680e9 !important;
+}
+
+.css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+  color: #5680e9 !important;
+}
+
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #5680e9 !important;
+}
+
+.css-1kty9di-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #5680e9 !important;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: #5680e9 !important;
+}
+
+.size-half {
+  width: 50%;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-12-half-em {
+  height: 12.5em;
+  width: 12.5em;
+}
+
+.pac-item:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .admin-page-chip {
+    font-size: 1em !important ;
+  }
+}
+
+.divider-margin {
+  margin-top: 1em !important;
+  margin-bottom: 1em !important;
+}
+
+.sticky-boi {
+  position: sticky;
+  height: 100%;
+}
+
+.ml-1 {
+  margin-left: 1em !important;
+}
+
+.detail {
+  max-width: 75% !important;
+  justify-content: center;
+  align-items: center;
+}
